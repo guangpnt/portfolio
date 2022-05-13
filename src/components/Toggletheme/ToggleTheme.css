@@ -4,11 +4,16 @@
     top: -80px;
     left: 50%;
     transform: translateX(-50%);
-    width: 70px;
-    height: 50px;
+    width: 50px;
+    height: 30px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
 }
 
 .light {
@@ -20,31 +25,43 @@
 }
 
 .sun {
-    display: none;
-    position: absolute;
+    display: block;
     background-image: url("../../Images/sun.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 20px;
-    height: 20px;
-    top: -65px;
-    left: 577px;
+    width: 15px;
+    height: 15px;
+    top: -73px;
+    left: 583px;
 }
 
 .moon {
-    display: none;
-    position: absolute;
+    display: block;
     background-image: url("../../Images/moon.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 20px;
-    height: 20px;
-    top: -65px;
-    left: 605px;
+    width: 15px;
+    height: 15px;
+    top: -73px;
+    left: 603px;
 }
 
-.show {
-    display: block;
+@media (max-width: 1200px) {
+    .btn-theme {
+        top: -110px;
+    }
+}
+
+@media (max-width: 860px) {
+    .btn-theme {
+        top: -145px;
+    }
+}
+
+@media (max-width: 590px) {
+    .btn-theme {
+        top: -195px;
+    }
 }

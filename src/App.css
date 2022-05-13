@@ -166,4 +166,18 @@ body {
   body {
     font-size: 15px;
   }
+
+  .container {
+    top: 310px;
+  }
+}
+
+@media (max-width: 590px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    top: 330px;
+  }
 }

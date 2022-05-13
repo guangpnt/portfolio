@@ -1,6 +1,6 @@
 .profile {
     border-radius: 15px;
-    padding: 22px 60px;
+    padding: 19px 60px;
     box-shadow: 0 0 10px .5px rgba(0, 0, 0, 0.5);
     background-color: #fff;
     display: flex;
@@ -23,6 +23,7 @@
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 5px;
+    margin-bottom: -15px;
 }
 
 .profile div {
