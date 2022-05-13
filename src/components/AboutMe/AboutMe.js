@@ -35,9 +35,9 @@ export default function AboutMe() {
                     <div className="profile-icon" />
                 </div>
                 <div className="description">
-                    Hello my nickname is guang. Now i just graduated from college in
+                    Hello my nickname is guang. Now I just graduated from college in
                     information engineering. I would like to work both as a backend developer and frontend developer.
-                    So i decide to create this website to introduce myself. I can work well
+                    So I decide to create this website to introduce myself. I can work well
                     with others. I like coding and ready to learn new technologies for
                     improving myself.
                 </div>
