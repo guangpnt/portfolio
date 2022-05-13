@@ -1,0 +1,50 @@
+.btn-theme {
+    position: fixed;
+    cursor: pointer;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.light {
+    background-image: url("../../Images/toggle-off.svg");
+}
+
+.dark {
+    background-image: url("../../Images/toggle-on.svg");
+}
+
+.sun {
+    display: none;
+    position: absolute;
+    background-image: url("../../Images/sun.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: -65px;
+    left: 577px;
+}
+
+.moon {
+    display: none;
+    position: absolute;
+    background-image: url("../../Images/moon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: -65px;
+    left: 605px;
+}
+
+.show {
+    display: block;
+}
