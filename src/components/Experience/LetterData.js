@@ -18,6 +18,9 @@ const LetterData = [
       letter: "i",
     },
     {
+      letter: "e",
+    },
+    {
       letter: "n",
     },
     {
