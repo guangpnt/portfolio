@@ -44,7 +44,7 @@ export default function Experience() {
 
                     <div className="flexitem-3">
                         <div className="exp-title">Internship at Botnoi Consulting Co., Ltd.</div>
-                        <div className="description">Internship as a backend web developer since June 2021 - November 2021</div>
+                        <div className="description">Internship as a backend web developer since May 2021 - November 2021</div>
                         <div className="details">
                             - Develop project SME with senior developer team <br />
                             - Handled database and web API (mondoDB, Golang) <br />
